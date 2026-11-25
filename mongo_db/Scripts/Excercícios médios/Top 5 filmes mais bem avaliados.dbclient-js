@@ -1,0 +1,2 @@
+// Active: 1795560726654@@cluster0.grbcubm.mongodb.net@443@sample_mflix
+db("sample_mflix").collection("movies").find().sort({"imdb.rating": -1}).limit(5)
